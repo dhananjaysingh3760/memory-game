@@ -66,19 +66,19 @@ $(".btn").click(function(event){
 function makeSound(index){
     switch(index){
         case "1":
-            var audio = new Audio('sounds/green.mp3');
+            var audio = new Audio('http://dolmqojfjoj43.cloudfront.net/green.mp3');
             audio.play();
             break;
         case "2":
-            var audio = new Audio('sounds/red.mp3');
+            var audio = new Audio('http://dolmqojfjoj43.cloudfront.net/red.mp3');
             audio.play();
             break;
         case "3":
-            var audio = new Audio('sounds/yellow.mp3');
+            var audio = new Audio('http://dolmqojfjoj43.cloudfront.net/yellow.mp3');
             audio.play();
             break;
         case "4":
-            var audio = new Audio('sounds/blue.mp3');
+            var audio = new Audio('http://dolmqojfjoj43.cloudfront.net/blue.mp3');
             audio.play();
     }
 }
